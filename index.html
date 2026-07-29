@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="진안과 강경의 근대 한옥을 3D로 살펴보는 웹전시" />
+    <title>근대 한옥의 변천 — 만남과 변용의 집</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="전시 첫 화면으로">
+        <span class="brand-mark">집</span>
+        <span>근대 한옥의 변천</span>
+      </a>
+      <nav aria-label="주요 메뉴">
+        <a href="#home">전시 소개</a>
+        <a href="#collection">두 채의 집</a>
+        <a href="#compare">비교 보기</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="home" class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow">WEB EXHIBITION · 1923—1943</p>
+          <h1>근대 한옥의 변천<br /><em>만남과 변용의 집</em></h1>
+          <p class="hero-lead">한옥은 근대의 변화를 어떻게 자기 것으로 만들었을까요?</p>
+          <p class="hero-body">진안과 강경의 근대 한옥을 통해, 2층 주거와 시장 상점으로 변해 간 집의 이야기를 살펴봅니다.</p>
+          <a class="button button-primary" href="#collection">두 채의 집 비교하기 <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-art" aria-label="강경 구 연수당 건재 약방과 진안 강정리 근대 한옥 사진">
+          <figure class="hero-photo hero-photo-ganggyeong"><img src="assets/images/ganggyeong-yeonsudang.jpg" alt="강경 구 연수당 건재 약방의 2층 전면" /></figure>
+          <figure class="hero-photo hero-photo-jinan"><img src="assets/images/jinan-gangjeongri.jpg" alt="진안 강정리 근대 한옥의 외관" /></figure>
+          <p>전통의 지속 <b>·</b> 생활의 변화 <b>·</b> 근대의 한옥</p>
+        </div>
+      </section>
+
+      <section class="intro section-shell">
+        <div class="section-label">01. 전시의 질문</div>
+        <div>
+          <h2>집은 고정된 형식이 아니라,<br />시대에 응답하는 선택이었습니다.</h2>
+          <p>1920~1940년대의 한옥은 예전 모습을 반복하는 데 그치지 않았습니다. 농촌에서는 생산과 주거를 함께 담기 위해 위로 확장했고, 시장에서는 상점의 얼굴을 갖추었으며, 새로운 구조기법을 자기 공간에 맞게 받아들였습니다.</p>
+        </div>
+      </section>
+
+      <section id="collection" class="collection section-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">02. TWO HOUSES</p>
+            <h2>두 채의 집, 두 가지 변화</h2>
+          </div>
+          <p>두 건물을 선택해 2층의 쓰임과 근대 한옥의 변화 방식을 살펴보세요.</p>
+        </div>
+        <div id="cards" class="cards" aria-live="polite"></div>
+      </section>
+
+      <section id="detail" class="detail-panel section-shell" aria-labelledby="detail-title">
+        <div class="detail-kicker">03. PHOTO ARCHIVE</div>
+        <div id="detail-content"></div>
+      </section>
+
+      <section id="compare" class="compare section-shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">04. COMPARE</p>
+            <h2>한눈에 비교하기</h2>
+          </div>
+          <p>두 근대 한옥은 서로 다른 필요에 따라 새로운 공간을 만들었습니다.</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>비교 항목</th><th>진안 강정리</th><th>강경 연수당</th></tr></thead>
+            <tbody>
+              <tr><th>건립 시기</th><td>1924</td><td>1923</td></tr>
+              <tr><th>기본 성격</th><td>농촌 주거·생산</td><td>시장 약방·상점</td></tr>
+              <tr><th>2층의 의미</th><td>잠실</td><td>상업 공간의 확장</td></tr>
+              <tr><th>변화의 키워드</th><td>수직 확장</td><td>상가 기능</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="outro section-shell">
+        <p class="eyebrow">THE LAST QUESTION</p>
+        <h2>무엇을 지키고,<br />무엇을 바꾸었을까요?</h2>
+        <p>근대 한옥은 사라진 전통이 아니라 변화한 사회와 생활에 맞추어 전통을 유지하고 새 요소를 선택적으로 결합한 건축입니다.</p>
+        <a class="button button-outline" href="#home">전시 처음으로 <span aria-hidden="true">↑</span></a>
+      </section>
+    </main>
+
+    <footer>
+      <p>근대 한옥의 변천 — 만남과 변용의 집</p>
+      <p>자료: 국가유산청 국가유산포털 · 국가유산 디지털 서비스</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
