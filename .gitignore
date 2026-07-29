@@ -1,0 +1,6 @@
+# Large 3D source models are retained for local preview only.
+# Upload optimized models to external hosting, then set their URLs in script.js.
+assets/models/*.glb
+
+# Local development artifacts
+work/
